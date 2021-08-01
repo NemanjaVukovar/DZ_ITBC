@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: lightblue;
+    margin: 0;
+  }
+
+  header {
+    padding: 20px;
+    display: inline;
+    font-size: 18px;
+    text-align: center;
+} 
+    ul li {
+        display: inline; /* the default for span */
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+      text-align: center;
+      }  
+      img {
+        width: 100%;
+
+      }
+
+      .column.side {
+        width: 25%;
+        float: left;
+        display: block;
+        text-align: center;
+      }
+h2 { text-align: left;
+    
+
+
+}
+      .column.middle {
+        float: left;
+        text-align: left;
+  padding: 20px;
+  width: 50%;
+  height:300px;
+    } 
+
+    form { border: 1px solid black;
+        width: 100%
+        float: left;
+        text-align: left;
+
+}
+
+
+
+ 
+      
+    
