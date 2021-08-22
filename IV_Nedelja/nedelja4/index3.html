@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UT>F-8" <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="zadatak3.js"></script>
+    <title>Addition</title>
+</head>
+
+<body>
+    <h1>Add two integer numbers using JavaScript.</h1>
+    <input type="checkbox" id="myCheckB" name="myCheckB" value="Calculator" onClick="showCalculator()" />
+    <label for="Calculator"> Show/Hide calculator</label><br><br>
+
+    <div id="divCalc" style="display: none;">
+        <b>Enter first Number: <br>
+            <input type="text" id="textIn1" /><br><br>
+            <b>Enter second Number: <br>
+                <input type="text" id="textIn2" /><br><br>
+                <input type="button" id="btnSum" value="Calculate SUM" onClick="addTwoNumbers('textIn1','textIn2')" />
+                <br><br>
+    </div>
+    <div id="myDiv">
+        <img src="Calculator.jpg" alt="Calculator" id="imgCalc" style="width:150px; height:200px; display: none; ">
+    </div>
+
+</body>
+
+</html>
